@@ -48,4 +48,26 @@
   color: #222;
   min-width: 3rem;
   background: #fff;
+  position: relative;
+  user-select: none;
+}
+
+.chart-cell--playable {
+  cursor: pointer;
+}
+
+.chart-cell--playable:hover {
+  background: #eef4ff;
+  color: #1a4fcf;
+}
+
+.chart-cell--playable:active {
+  background: #d0e2ff;
+}
+
+.play-icon {
+  font-size: 0.5rem;
+  opacity: 0.4;
+  margin-left: 0.25rem;
+  vertical-align: middle;
 }
